@@ -39,7 +39,7 @@ if grep -q "dtoverlay=w5500,cs=0,speed=39000000" "$File";
         then
                 echo "overlay already enabled. Doing nothing."
         else
-                echo "dtoverlay=w5500,cs=0,speed=" >> "$File"
+                echo "dtoverlay=w5500,cs=0,speed=39000000" >> "$File"
                 echo "w5500 overlay enabled."
 fi
 
