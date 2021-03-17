@@ -146,7 +146,7 @@ fi
 
 cd /etc/systemd/system
 
-svc3=dkn-fan.service.service
+svc3=dkn-fan.service
 
 if [ -e $svc3 ];
 	then
